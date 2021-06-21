@@ -4,7 +4,17 @@ $fontColor="red";
 $imageWidth="80px";
 $imageHeight="80px";
 ?>
-<img src ="AIUB_whole_logo.png" width="<?php echo $imageWidth; ?>" height="<?php echo $imageHeight;?>"/>
-<h2>American International <br> University -<span style ="background-color:green;color:red">
-Bangladesh</h2>
-</span>
+
+<table>
+	<tr>
+		<td>
+			<img src ="AIUB_whole_logo.png" width="<?php echo $imageWidth; ?>" height="<?php echo $imageHeight;?>"/>
+		</td>
+		<td>
+			<h2>American International <br> University -<span style ="background-color:<?php echo $backColor;?>;color:<?php echo $fontColor="red";?>">
+			Bangladesh</span></h2>
+
+		</td>
+	</tr>
+</table>
+
